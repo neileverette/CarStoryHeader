@@ -1,0 +1,121 @@
+
+p{
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    font-size: .8rem;
+    line-height: 1;
+}
+
+h2{
+    font-family: "Exo-ExtraLight";
+    font-size: 26;
+}
+
+h2:nth-of-type(odd){
+}
+
+#car{
+    position: relative;
+    top: 8px;
+}
+
+#carstoryLogo{
+    position: relative;
+    left: -10px;
+}
+
+.logo{
+    position: relative;
+    width: 140px;
+    height: 60px;
+    left: 30px;
+    top: 10px;
+}
+
+.column-layout{
+    max-width: 90%;
+    background-color: azure;
+    margin: 150px auto 0 auto;
+    display: flex;
+}
+
+.browseWidget{
+    margin: 120px auto 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.wedge-one{
+    position: absolute;
+    left: -5%;
+    opacity: 1;
+    width: 110%;
+    height: 100px;
+    background:-webkit-linear-gradient(top, rgba(12,142,212,1) 60%,rgba(41,176,233,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    transform:rotate(-2.5deg);
+    opacity: .8;
+    top: -45px;
+}
+
+.wedge-two{
+    position: absolute;
+    left: -5%;
+    width: 110%;
+    height: 200px;
+    background: -webkit-linear-gradient(-45deg, rgba(41,176,233,0) 0%, rgba(41,176,233,0) 20%,rgba(41,176,233,0.4) 50%,rgba(41,176,233,0.1) 100%); /* Chrome10-25,Safari5.1-6 */    
+    transform:rotate(5deg);
+    top: -150px;
+}
+
+.wedge-three{
+    position: absolute;
+    left: -5%;
+    width: 110%;
+    height: 200px;
+    background-color: #29B0E9;
+    transform:rotate(-3deg);
+    opacity:.2 ;
+    top: -130px;
+}
+
+.makeModel{
+    font-family: Exo-SemiBold;
+    font-size: 26px;
+    color: #343434;
+    text-transform: uppercase;
+}
+
+.location{
+    font-family: "Exo-ExtraLight";
+    font-size: 26px;
+    color: #343434;    
+}
+
+.container{
+    padding-left: 252px;
+    padding-right: 64px;
+    padding-top: 100px;
+    max-width: 100%;
+}
+
+.row{
+    max-width: 1800px;
+
+}
+
+.car{
+    position: relative;
+    height: 136px;
+    background: url(img/car1.png) no-repeat;
+    background-size: cover;
+}
+
+.carInstance{
+    height: 185px;
+    outline: 1px solid #d7d7d7;
+    outline-style: outset;
+}
+
+.col-lg-3,col-md-4, col-sm-6{
+    padding: 0;
+}
