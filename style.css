@@ -92,15 +92,12 @@ h2:nth-of-type(odd){
 }
 
 .container{
-    padding-left: 252px;
-    padding-right: 64px;
-    padding-top: 100px;
+    margin-top: 90px;
     max-width: 100%;
 }
 
 .row{
     max-width: 1800px;
-
 }
 
 .car{
@@ -112,10 +109,12 @@ h2:nth-of-type(odd){
 
 .carInstance{
     height: 185px;
+    width: 90%;
     outline: 1px solid #d7d7d7;
     outline-style: outset;
 }
 
 .col-lg-3,col-md-4, col-sm-6{
     padding: 0;
+    background-color: azure;
 }
